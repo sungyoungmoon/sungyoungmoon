@@ -1,25 +1,24 @@
 import * as icon  from 'react-icons/si'
 
 const profile = {
-	name: 'Carlos Montenegro',
-	role: 'Front End Developer',
-	description: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sed facere, itaque excepturi, necessitatibus cum ex nisi.',
+	name: 'Sungyoung Moon',
+	role: 'Computer Science, UC San Diego',
+	description: 'update soon!!',
 };
 
 const social = [
+	{ icon: icon.SiLinkedin, link: 'https://www.linkedin.com/in/sungyoung-moon/' },
 	{ icon: icon.SiGithub, link: 'https://github.com' },
-	{ icon: icon.SiCodepen, link: 'https://www.medium.com/' },
-	{ icon: icon.SiTwitter, link: 'https://www.twitter.com/' },
-	{ icon: icon.SiInstagram, link: 'https://www.instagram.com/' },
+	{ icon: icon.SiGmail, link: 'https://mail.google.com/mail/u/?authuser=sumoon@ucsd.edu' },
 ];
 
-const brand = 'Singleton'
+const brand = 'Sungyoung'
 
 
 const work = [
 	{
 		name: 'Todo app',
-		description: 'Phasellus metus mi, scelerisque eu volutpat non, posuere et massa. Nunc hendrerit, augue non fringilla mattis.',
+		description: ' ',
 		stack: [
 			{ icon: icon.SiHtml5, name: 'HTML' },
 			{ icon: icon.SiCss3, name: 'CSS' },
@@ -30,8 +29,8 @@ const work = [
 		linkGithub: 'https://github.com',
 	},
 	{
-		name: 'Pokedex',
-		description: 'Etiam eget volutpat risus. Nam magna bibendum a metus dignissim, id eleifend libero luctus molestie eget.',
+		name: 'update soon',
+		description: 'update soon',
 		stack: [
 			{ icon: icon.SiHtml5, name: 'HTML' },
 			{ icon: icon.SiCss3, name: 'CSS' },
@@ -42,8 +41,8 @@ const work = [
 		linkGithub: 'https://github.com',
 	},
 	{
-		name: 'E-Commerce',
-		description: 'Nullam id mauris auctor, sollicitudin sapien id, sagittis turpis proin et nunc sempe, venenatis erat.',
+		name: 'update soon',
+		description: 'update soon',
 		stack: [
 			{ icon: icon.SiHtml5, name: 'HTML' },
 			{ icon: icon.SiCss3, name: 'CSS' },
@@ -54,8 +53,8 @@ const work = [
 		linkGithub: 'https://github.com',
 	},
 	{
-		name: 'Twitter clon',
-		description: 'Cras leo mauris, gravida vel lectus ac, congue luctus odio. Sed varius varius est eget convallis sagittis sit amet.',
+		name: 'update soon',
+		description: 'update soon.',
 		stack: [
 			{ icon: icon.SiHtml5, name: 'HTML' },
 			{ icon: icon.SiCss3, name: 'CSS' },
@@ -92,8 +91,8 @@ const stack = [
 ]
 
 const contact = {
-	description: 'Tenetur laudantium? Aliquid ipsum perferendis blanditiis non. Adipisci eos numquam reiciendis, rerum, quo similique reprehenderit. Adipisci eos numquam reiciendis',
-	email: 'example@email.com'
+	description: 'Email me',
+	email: 'sumoon@ucsd.edu'
 }
 
 export { profile, social, work, stack, contact, brand }
